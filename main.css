@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+.container {
+    width: 1342px;
+    margin: 0 auto;
+}
+ /* navbar */
+.continer-1{
+    width: 80%;
+    height: 120px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.continer-1 nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav .logo-1{
+    width: 15%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+nav ul{
+    width: 35%;
+    display: flex;
+}
+
+nav ul li{
+    width: 100%;
+    list-style: none;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #4B321D;
+}
+
+/* navbar tamom */
+
+
+/* section-1 */
+
+.section-1{
+    width: 95%;
+    height: 1500px;
+}
+
+.section-1 p{
+    width: 100%;
+    height: 400px;
+    font-size: 80px;
+    color: #4B321D;
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+}
+
+.section-1 img{
+    width: 100%;
+    height: 600px;
+    margin-left: 33px;
+}
+
+.section-1 button{
+    margin-left: 130px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    color: #4B321D;
+    cursor: pointer;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: #4B321D;
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;  
+}
+
+/* section-1 tamom */
+
+
+/* section-2 */
+
+.section-2{
+    width: 90%;
+    height: 2150px;
+    margin: 0 auto;
+}
+
+.section-2 .birinchi {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.section-2 .birinchi .blok1 {
+    width: 40%;
+    height: 240px;
+    
+}
+
+.section-2 .birinchi .blok1 p {
+    width: 100%;
+    height: 180px;
+    font-size: 38px;
+    color: #4B321D;
+    
+}
+
+
+.section-2 .ikkinchi {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-2 .ikkinchi .blok2 {
+    width: 40%;
+    height: 185px;
+    
+}
+
+.section-2 .ikkinchi .blok2 p {
+    width: 100%;
+    height: 140px;
+    font-size: 38px;
+    color: #4B321D;
+    
+}
+
+/* section-2 tamom */
+
+
+/* section-3 */
+
+.section-3{
+    width: 97%;
+    height: 400px;
+    background-color: #4B321D;
+    border-radius: 16px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 30px;
+}
+
+.section-3 div{
+    padding: 0 60px;
+}
+
+
+.section-3 .katta{
+    width: 100%;
+    height: 200px;
+    font-size: 80px;
+    color: #F1F1EB;
+}
+
+.section-3 .kichik{
+    width: 100%;
+    height: 35px;
+    font-size: 26px;
+    color: #F1F1EB;
+}
+
+/* section-3 tamom */
+
+/* section-4 */
+
+.section-4 {
+    width: 90%;
+    height: 240px;
+    margin: 0 auto;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.section-4 p {
+    width: 100%;
+    height: auto;
+    font-size: 80px;
+    color: #4B321D;
+    margin-bottom: 50px;
+}
+
+/* section-4 tamom */
+
+
+/* footer */
+
+footer{
+    width: 90%;
+    height: 240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .logo2-qism p{
+    color: #4B321D;
+    font-size: 18px;
+    padding: 3px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+footer .qismlari {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .qismlari p{
+    cursor: pointer;
+    color: #4B321D;
+    font-size: 18px;
+    padding: 3px;
+}
+/* footer tamom */
+
+
+
+
+@media only screen and (max-width: 600px) {
+   
+     /* navbar */
+.continer-1{
+    width: 80%;
+    height: 16vh;
+    margin: 0 auto;
+}
+
+.continer-1 nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav .logo-1{
+    width: 15%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+nav ul{
+    width: 55%;
+    display: flex;
+}
+
+nav ul li{
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+nav ul li a{
+    font-size: 17px;
+}
+
+/* navbar tamom */
+
+
+/* section-1 */
+
+.section-1{
+    width: 100%;
+    height: auto;
+}
+
+.section-1 p{
+    width: 85%;
+    height: 35vh;
+    font-size: 50px;
+    text-align: justify;
+    margin: 0 auto;
+  
+}
+
+.section-1 img{
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.section-1 button{
+    margin-left: 50px;
+}
+
+/* section-1 tamom */
+
+
+/* section-2 */
+
+.section-2{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.section-2 .birinchi {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-2 .birinchi img {
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 40px 0;  
+}
+
+
+.section-2 .birinchi .blok1 {
+    width: 100%;
+    height: 40vh;
+}
+
+.section-2 .birinchi .blok1 p {
+    width: 100%;
+    height: 25vh;
+    font-size: 33px;
+}
+
+
+.section-2 .ikkinchi {
+    width: 100%;
+    height: 125vh;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.section-2 .ikkinchi img {
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 40px 0; 
+}
+
+.section-2 .ikkinchi .blok2 {
+    width: 100%;
+    height: 30vh;
+}
+
+.section-2 .ikkinchi .blok2 p {
+    width: 100%;
+    height: 12vh;
+    font-size: 33px;
+}
+
+/* section-2 tamom */
+
+
+/* section-3 */
+.section-3 .katta{
+    font-size: 40px;
+}
+
+.section-3 .kichik{
+    font-size: 20px;
+}
+/* section-3 tamom */
+
+/* section-4 */
+
+.section-4 {
+    width: 90%;
+    height: 35vh;
+
+}
+
+.section-4 p {
+    font-size: 45px;
+    margin-bottom: 35px;
+}
+/* section-4 tamom */
+
+
+/* footer */
+
+footer{
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .logo2-qism p{
+    font-size: 16px;
+    padding: 2px;
+}
+
+footer .qismlari {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .qismlari p{
+    font-size: 18px;
+    padding: 2px;
+}
+/* footer tamom */
+
+}
